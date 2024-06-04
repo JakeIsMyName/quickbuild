@@ -13,7 +13,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   pyinstaller-build:
-    runs-on: <windows-latest>
+    runs-on: windows-latest
     steps:
       - name: Create Executable
         uses: sayyid5416/pyinstaller@v1
